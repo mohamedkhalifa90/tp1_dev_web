@@ -58,5 +58,13 @@
     <servlet-name>ListItems</servlet-name>
     <url-pattern>/ListItems</url-pattern>
 </servlet-mapping>
+<servlet>
+        <servlet-name>Controller</servlet-name>
+        <servlet-class>lab.mvc.controller.Controller</servlet-class>
+    </servlet>
 
+    <servlet-mapping>
+        <servlet-name>Controller</servlet-name>
+        <url-pattern>/Controller</url-pattern>
+    </servlet-mapping>
 </web-app>
